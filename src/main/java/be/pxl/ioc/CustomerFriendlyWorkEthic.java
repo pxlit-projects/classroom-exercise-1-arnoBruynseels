@@ -1,13 +1,16 @@
 package be.pxl.ioc;
 
-public class CustomerFriendlyWorkEthic extends BaseWorkEthic {
+public class CustomerFriendlyWorkEthic extends BaseWorkEthic 
+{
     @Override
-    public String customerHappiness() {
+    public String customerHappiness()
+    {
         return "satisfied";
     }
 
     @Override
-    public boolean writesCorrectName() {
+    public boolean writesCorrectName() 
+    {
         return true;
     }
 }

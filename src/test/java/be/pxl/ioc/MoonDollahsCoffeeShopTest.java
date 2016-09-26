@@ -2,6 +2,12 @@ package be.pxl.ioc;
 
 import org.junit.Test;
 
+import be.pxl.ioc.BadHearingWorkEthic;
+import be.pxl.ioc.Barista;
+import be.pxl.ioc.CustomerFriendlyWorkEthic;
+import be.pxl.ioc.LazyWorkEthic;
+import be.pxl.ioc.MoonDollahsCoffeeShop;
+
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
